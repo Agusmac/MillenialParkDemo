@@ -4,15 +4,25 @@
 /* @import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro'); */
 
 body{
-    min-height: 5000px;
     overflow-x: hidden;
 }
 
 
-         
-
 .Hero-bg{
     background-image: url('/Bg-hero-big.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* this should be cut into one but ok for now */
+.background-Img-2{
+    background-image: url('/Rectangle-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.background-Img-3{
+    background-image: url('/Rectangle-3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

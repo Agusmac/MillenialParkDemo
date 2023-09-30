@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Hero from '../../components/Hero'
 import SecondDiv from '../../components/SecondDiv'
 import ThirdDiv from '../../components/ThirdDiv'
+import FourthDiv from '../../components/FourthDiv'
+import FifthDiv from '../../components/FifthDiv'
 
 
 
@@ -19,6 +21,8 @@ export default function Home() {
         <Hero/>
         <SecondDiv />
         <ThirdDiv />
+        <FourthDiv />
+        <FifthDiv />
       </main>
     </>
   )

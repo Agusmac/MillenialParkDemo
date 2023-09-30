@@ -6,8 +6,8 @@ export default function ThirdDiv() {
     DragScroll('.carousel')
     return (
         <>
-        <div className='px-[6vw] xl:px-[7vw] flex flex-col xl:flex-row items-center gap-24'>
-            <div className='flex-1'>
+        <div className='px-[6vw] xl:px-[7vw] flex flex-col xl:flex-row items-center gap-24 mb-32'>
+            <div className='flex-1 text-[#3D3D3D]'>
                 <h2 className='text-[#E37830] font-medium text-6xl md:text-[78px] mb-4 leading-none'>Millenia Park</h2>
                 <p className='text-2xl md:text-[28px] leading-[1.34] font-normal mb-12'>Gran complejo de departamentos distribuido
                     en ocho edificios, que cuenta con 960 unidades
@@ -70,7 +70,7 @@ export default function ThirdDiv() {
 
         </div>
          {/* carousel */}
-         <div className='pl-[6vw] mt-24 xl:hidden'>
+         <div className='pl-[6vw] mt-24 xl:hidden mb-32'>
                 <div className='overflow-hidden relative'>
                     <div className='carousel flex justify-start items-center gap-5 md:gap-10 overflow-x-scroll scrollbar-hide cursor-grab pr-10'>
                         <Image className='w-full min-h-[381px]' src={'/third-div/Rectangle-14.png'} width={275} height={381}></Image>
