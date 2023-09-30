@@ -67,7 +67,7 @@ export default function FifthDiv() {
 
             </div>
             <div className='mx-auto max-w-[699px]'>
-                <Image src='/Siteplan.Png' width={699} height={633}></Image>
+                <Image src='/Siteplan.png' width={699} height={633}></Image>
             </div>
         </div>
     )
