@@ -5,6 +5,10 @@ import SecondDiv from '../../components/SecondDiv'
 import ThirdDiv from '../../components/ThirdDiv'
 import FourthDiv from '../../components/FourthDiv'
 import FifthDiv from '../../components/FifthDiv'
+import SixthDiv from '../../components/SixthDiv'
+import SeventhDiv from '../../components/SeventhDiv'
+import EighthDiv from '../../components/EighthDiv'
+import Footer from '../../components/Footer'
 
 
 
@@ -18,11 +22,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Hero/>
+        <Hero />
         <SecondDiv />
         <ThirdDiv />
         <FourthDiv />
         <FifthDiv />
+        <SixthDiv />
+        <SeventhDiv />
+        <EighthDiv />
+        <Footer />
       </main>
     </>
   )
