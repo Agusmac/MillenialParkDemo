@@ -13,13 +13,13 @@ export default function Footer() {
             <p className='mt-5 text-2xl font-medium'>Rubén Kaufman</p>
             <p className='text-lg uppercase '>Presidente de Mir Developments</p>
             <div className='my-5 h-[2px] bg-white w-3/4'></div>
-            <p className='text-xl font-medium'>Tel | whatsapp  +54 (11) 2129 6870 <br /> rkaufman@mirdevelopments.com</p>
+            <p className='text-xl font-medium'>Tel | whatsapp  +54 (11) 2129 6870 <br /> <a href="mailto:rkaufman@mirdevelopments.com">rkaufman@mirdevelopments.com</a></p>
             <div className='my-5 h-[2px] bg-white w-3/4'></div>
             <p className='text-xl italic w-3/4 mx-auto text-center'>Más de 40 años de experiencia desarrollando propiedades en Sudamérica, Miami, Orlando.</p>
           </div>
 
           <div className='px-8 sm:px-16 py-20'>
-            <div className='hidden lg:flex justify-end mb-7'><Image className='relative -top-32' alt='whatsapp logo' src='/whatsapp.svg' width={88} height={88} /></div>
+            <div className='flex justify-end mb-7'><a href="https://wa.link/thcfye"><Image className='relative' quality={100} alt='whatsapp logo' src='/whatsapp.png' width={88} height={88} /></a></div>
             <p className='font-medium text-xl mb-7'><span className='text-2xl text-[#1A6662] '>Dirección</span> <br />
               18851 NE 29th Ave, Suite 402 Miami, Florida USA, 33180</p>
             <div className='flex justify-between items-end mb-10'>

@@ -10,7 +10,7 @@ export default function ThirdDiv() {
             <div className='flex-1 text-[#3D3D3D]'>
                 <h2 className='text-[#E37830] font-medium text-6xl md:text-[78px] mb-4 leading-none'>Millenia Park</h2>
                 <p className='text-2xl md:text-[28px] leading-[1.34] font-normal mb-12'>Gran complejo de departamentos distribuido
-                    en ocho edificios, que cuenta con 960 unidades
+                    en 8 edificios, que cuenta con 960 unidades
                     de vivienda y 25.000 pies cuadrados de espacio
                     comercial.</p>
 
