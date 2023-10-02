@@ -8,7 +8,7 @@ export default function SeventhDiv() {
                 de <span className='font-medium'>excelente retorno en dólares</span></h2>
 
             <div className='mx-auto max-w-[1240px] py-10 md:py-16 bg-[#F7F7F7] md:rounded-[55px]'>
-                <h3 className='mx-auto text-center text-[#E37830] font-medium text-3xl mb-10 px-6 md:px-0'>Cuenta con amenities diferenciales y de valor</h3>
+                <h3 className='mx-auto text-center text-[#E37830] font-medium text-3xl mb-10 px-6 md:px-0'>Amenities</h3>
                 <div className='grid grid-cols-2 xl:grid-cols-4 gap-2 sm:gap-8 px-4 sm:px-8 md:px-[92px] mb-8 md:mb-16'>
                     <div className="bg-[#e7f3f2] flex flex-col items-center pt-[34px] rounded-[13px] pb-[34px] sm:pb-0 sm:h-[293px]">
                         <Image className=' h-20 sm:h-[125px] w-auto' alt='mascotas' src='/green-grid/dog.png' width={176} height={125} />
