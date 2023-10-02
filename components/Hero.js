@@ -3,7 +3,6 @@ import React, { useRef, useEffect } from 'react'
 import emailjs from 'emailjs-com'
 import Swal from 'sweetalert2';
 
-
 function Hero() {
   const formRef = React.createRef();
   useEffect(() => {
@@ -43,11 +42,11 @@ const isPhoneValid = (phoneRef) => {
     } catch (error) {
       console.error('Fallo al enviar el correo electrónico:', error);
     }
-    Swal.fire({
-      icon: 'success',
-      title: 'Formulario enviado correctamente',
-      text: 'Nos contactaremos a la brevedad.',
-    });
+     Swal.fire({
+          icon: 'success',
+          title: 'Formulario enviado correctamente',
+          text: 'Nos contactaremos a la brevedad.',
+        });
    };
 
  return (
@@ -69,7 +68,7 @@ const isPhoneValid = (phoneRef) => {
 
         <div id='hero-form' className='rounded-[32px] bg-white  w-full max-w-[505px] flex-1 self-center pb-10 md:pb-14 pt-12 md:pt-[74px]   flex flex-col items-center px-7 md:px-11'>
         <form ref={formRef} onSubmit={handleSubmit}>
-          <h3 className='text-[#E37830] text-2xl md:text-3xl font-medium mb-10 whitespace-nowrap text-center'>Comenzá a invertir HOY</h3>
+          <h3 className='text-[#E37830] text-2xl md:text-3xl font-medium mb-10 whitespace-nowrap'>Comenzá a invertir HOY</h3>
           <div className='h-[47px] bg-[#F0F0F0] w-full rounded-lg mb-5 font-light flex items-center px-8'>
             <input name='name' ref={nameRef} placeholder='Nombre y Apellido*' required className='bg-transparent w-full text-[#8B8B8B] placeholder-[#8B8B8B] focus:ring-0 outline-none text-lg md:text-xl' type="text" />
           </div>
