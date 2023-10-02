@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React, { useRef, useEffect } from 'react'
 import emailjs from 'emailjs-com'
+import Swal from 'sweetalert2';
 
 function Hero() {
   const formRef = React.createRef();
@@ -41,6 +42,11 @@ const isPhoneValid = (phoneRef) => {
     } catch (error) {
       console.error('Fallo al enviar el correo electrónico:', error);
     }
+     Swal.fire({
+          icon: 'success',
+          title: 'Formulario enviado correctamente',
+          text: 'Nos contactaremos a la brevedad.',
+        });
    };
 
  return (
