@@ -1,4 +1,5 @@
-import Image from 'next/image'
+
+import Link from 'next/link'
 import React from 'react'
 
 export default function FourthDiv() {
@@ -36,7 +37,9 @@ export default function FourthDiv() {
             </div>
             <div className='py-[68px] w-full bg-[#E37830] text-white px-10'>
                 <p className='mx-auto text-center mb-5 text-3xl sm:text-[38px]'> <span className='font-bold'>Diversificá</span> tu capital y <span className='font-bold'>asegurá</span> tu futuro financiero</p>
+                <Link href={'#hero-form'}>
                 <div className='text-[#E37830] mx-auto bg-white rounded-xl w-fit text-xl px-7 py-5 font-bold'>Consultar ahora</div>
+                </Link>
             </div>
             <div className='background-Img-3 h-[50vh] md:h-[70vh] w-full'></div>
         </div>

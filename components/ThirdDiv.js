@@ -73,11 +73,11 @@ export default function ThirdDiv() {
          <div className='pl-[6vw] mt-24 xl:hidden mb-32'>
                 <div className='overflow-hidden relative'>
                     <div className='carousel flex justify-start items-center gap-5 md:gap-10 overflow-x-scroll scrollbar-hide cursor-grab pr-10'>
-                        <Image className='w-full min-h-[381px]' src={'/third-div/Rectangle-14.png'} width={275} height={381}></Image>
-                        <Image className='w-full min-h-[381px]' src={'/third-div/Rectangle-16.png'} width={275} height={381}></Image>
-                        <Image className='w-full min-h-[381px]' src={'/third-div/Rectangle-19.png'} width={275} height={381}></Image>
-                        <Image className='w-full min-h-[381px]' src={'/third-div/Rectangle-15.png'} width={275} height={381}></Image>
-                        <Image className='w-full min-h-[381px]' src={'/third-div/Rectangle-17.png'} width={275} height={381}></Image>
+                        <Image alt='imagen del complejo' className='w-full min-h-[381px]' src={'/third-div/Rectangle-14.png'} width={275} height={381}></Image>
+                        <Image alt='imagen del complejo' className='w-full min-h-[381px]' src={'/third-div/Rectangle-16.png'} width={275} height={381}></Image>
+                        <Image alt='imagen del complejo' className='w-full min-h-[381px]' src={'/third-div/Rectangle-19.png'} width={275} height={381}></Image>
+                        <Image alt='imagen del complejo' className='w-full min-h-[381px]' src={'/third-div/Rectangle-15.png'} width={275} height={381}></Image>
+                        <Image alt='imagen del complejo' className='w-full min-h-[381px]' src={'/third-div/Rectangle-17.png'} width={275} height={381}></Image>
                         {/* <div className='absolute top-0 bottom-0 right-0 w-10 backdrop-blur-[1px] bg-gradient-to-r  from-transparent to-[#1e1e1e] opacity-70 '></div> */}
                     </div>
                 </div>

@@ -66,7 +66,7 @@ const isPhoneValid = (phoneRef) => {
           </div>
        </div>
 
-        <div className='rounded-[32px] bg-white  w-full max-w-[505px] flex-1 self-center pb-10 md:pb-14 pt-12 md:pt-[74px]   flex flex-col items-center px-7 md:px-11'>
+        <div id='hero-form' className='rounded-[32px] bg-white  w-full max-w-[505px] flex-1 self-center pb-10 md:pb-14 pt-12 md:pt-[74px]   flex flex-col items-center px-7 md:px-11'>
         <form ref={formRef} onSubmit={handleSubmit}>
           <h3 className='text-[#E37830] text-2xl md:text-3xl font-medium mb-10 whitespace-nowrap'>Comenzá a invertir HOY</h3>
           <div className='h-[47px] bg-[#F0F0F0] w-full rounded-lg mb-5 font-light flex items-center px-8'>
